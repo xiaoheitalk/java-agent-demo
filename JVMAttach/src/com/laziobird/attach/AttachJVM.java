@@ -14,7 +14,7 @@ public class AttachJVM {
         // 获取运行中的JVM列表
         List<VirtualMachineDescriptor> vmList = VirtualMachine.list();
         // 我们编写探针的Jar包路径
-        String agentJar = "/Users/jiangzhiwei/eclipse-workspace/agentdemo/target/javaagent-demo-0.0.1-SNAPSHOT-jar-with-dependencies.jar";
+        String agentJar = "E:\\production\\github\\11-java\\java-agent-demo\\JVMAttach\\agent\\javaagent-demo-0.0.1-SNAPSHOT-jar-with-dependencies.jar";
         for (VirtualMachineDescriptor vmd : vmList) {
             // 找到测试的JVM
             System.out.println("vmd name: "+vmd.displayName());

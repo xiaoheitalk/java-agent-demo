@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="533f0c3b-106c-45d7-a3b0-e6812b569cad" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Agentdemo/src/main/java/com/laziobird/PreMainTransformerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Agentdemo/src/main/java/com/laziobird/PreMainTransformerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVMAttach/src/com/laziobird/attach/AttachJVM.java" beforeDir="false" afterPath="$PROJECT_DIR$/JVMAttach/src/com/laziobird/attach/AttachJVM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAgentDemo/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAgentDemo/src/com/laziobird/AgentAttachTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAgentDemo/src/com/laziobird/AgentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAgentDemo/src/com/laziobird/ClassC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAgentDemo/src/com/laziobird/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAgentDemo/src/com/laziobird/HelloImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAgentDemo/src/com/laziobird/asm/ASMDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAgentDemo/src/com/laziobird/asm/TestASMProxy.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\user\maven-repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../user/setting/apache-maven-3.5.4" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="E:\user\setting\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectId" id="2NuZ0SVKGvkOfTxAe8FlL1Qa0ch" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/production/github/11-java/java-agent-demo/JVMAttach",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\production\github\11-java\java-agent-demo\TestAgentDemo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.laziobird.AgentAttachTest">
+    <configuration name="com.laziobird.AgentAttachTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.laziobird.AgentAttachTest" />
+      <module name="javaagent-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laziobird.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.laziobird.AgentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.laziobird.AgentTest" />
+      <module name="javaagent-test" />
+      <option name="VM_PARAMETERS" value="-javaagent:E:\production\github\11-java\java-agent-demo\TestAgentDemo\agent\javaagent-demo-0.0.1-SNAPSHOT-jar-with-dependencies.jar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.laziobird.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.com.laziobird.AgentAttachTest" />
+      <item itemvalue="Application.com.laziobird.AgentTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.laziobird.AgentAttachTest" />
+        <item itemvalue="Application.com.laziobird.AgentTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="533f0c3b-106c-45d7-a3b0-e6812b569cad" name="Changes" comment="" />
+      <created>1680515703577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680515703577</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

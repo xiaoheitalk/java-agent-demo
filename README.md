@@ -23,6 +23,8 @@ Can-Retransform-Classes: true
 * `Premain-Class`包含Premain方法的类
 * `Can-Redefine-Classes`为true时表示能够重新定义Class
 * `Can-Retransform-Classes`为true时表示能够重新转换Class，实现字节码替换
+
+
 2、构建Premain方法
 
 ```xml
@@ -37,6 +39,8 @@ public class MyAgentDemo {
 }
 ```
 我们实现Premain方法类叫 `MyAgentDemo`，里面添加一个类转化器  `PreMainTransformerDemo`，这个转化器具体来实现统计方法调用时间
+
+
 3、编写类转换器
 
 在编写类转化器时，我们通过Javassist 来具体操作字节码，首先`pom.xml` 里面添加依赖
@@ -244,6 +248,9 @@ public static void main(String[] args) {
 }
 ```
 5、编写一个演示 Attach 通信的JVM 程序，用于启动 Agent
+
+需要增加 tool.jar 的依赖
+
 ```java
 public class AttachJVM {
     public static void main(String[] args) throws IOException, AttachNotSupportedException, AgentLoadException, AgentInitializationException {

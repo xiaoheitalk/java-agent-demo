@@ -17,6 +17,7 @@ public class AgentAttachTest {
             throw new RuntimeException(e);
         }
     }
+
     public static void main(String[] args) {
         AgentAttachTest agentTest = new AgentAttachTest();
         while (1==1){

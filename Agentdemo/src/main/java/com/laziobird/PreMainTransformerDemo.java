@@ -24,6 +24,7 @@ public class PreMainTransformerDemo implements ClassFileTransformer {
         if (className.startsWith("java") || className.startsWith("sun") || !className.contains("com.laziobird")) {
             return null;
         }
+        System.out.println("className = " + className);
 
         CtClass ctclass = null;
         try {
@@ -31,6 +32,7 @@ public class PreMainTransformerDemo implements ClassFileTransformer {
             ctclass = ClassPool.getDefault().get(className);
             for (CtMethod ctMethod : ctclass.getDeclaredMethods()) {
                 String methodName = ctMethod.getName();
+                System.out.println("methodName = " + methodName);
                 // 新定义一个方法叫做比如sayHello$old
                 String newMethodName = methodName + "$old";
                 // 将原来的方法名字修改
