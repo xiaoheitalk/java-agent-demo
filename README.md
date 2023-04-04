@@ -251,6 +251,18 @@ public static void main(String[] args) {
 
 需要增加 tool.jar 的依赖
 
+```
+<dependency>
+    <groupId>com.sun</groupId>
+    <artifactId>tools</artifactId>
+    <version>1.8</version>
+    <scope>system</scope>
+    <systemPath>${JAVA_HOME}\lib\tools.jar</systemPath>
+</dependency>
+```
+
+
+
 ```java
 public class AttachJVM {
     public static void main(String[] args) throws IOException, AttachNotSupportedException, AgentLoadException, AgentInitializationException {
